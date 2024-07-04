@@ -1,0 +1,9 @@
+microservice:
+  customer-service:
+    endpoints:
+      endpoint:
+        uri: http://customer-service/customer/
+  account-service:
+    endpoints:
+      endpoint:
+        uri: http://account-service/account/
